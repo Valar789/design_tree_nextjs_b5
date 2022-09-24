@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="row">
           <div className="col-lg-8">
             <h1>
-              Welcome to <span>Design Tree</span>
+              Welcome to <span>Design Three</span>
             </h1>
             <h2>Delivering great food for more than 18 years!</h2>
 

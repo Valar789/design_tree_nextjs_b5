@@ -5,7 +5,7 @@ export default function NavBar() {
         <header id="header" className="fixed-top d-flex align-items-cente">
     <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 className="logo me-auto me-lg-0"><Link href="/" ><a >Design Tree</a></Link></h1>
+      <h1 className="logo me-auto me-lg-0"><Link href="/" ><a >Design Three</a></Link></h1>
 
       <nav id="navbar" className="navbar order-last order-lg-0">
         <ul>
