@@ -873,6 +873,7 @@ section {
   color: #fff;
 }
 
+
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
@@ -907,13 +908,15 @@ section {
 }
 
 .menu .menu-item {
-  margin-top: 50px;
-  
+margin-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-.menu .menu-img {
-  object-fit: cover;
-  max-height: 50px;
+.menu img {
+  max-height: 70px;
+  width: 70px;
   border-radius: 50%;
   float: left;
   border: 5px solid rgba(255, 255, 255, 0.2);
@@ -986,7 +989,7 @@ section {
   border: 0;
   padding: 12px 15px;
   transition: 0.3s;
-  color: #fff;
+  color: #ff7300;
   border-radius: 0;
   border-right: 2px solid #ff7300;
   font-weight: 600;
@@ -1132,7 +1135,11 @@ section {
 # Book A Table
 --------------------------------------------------------------*/
 .book-a-table .php-email-form {
-  width: 100%;
+  padding: 10px;
+  background: linear-gradient(rgba(12, 13, 14, 0.7), rgba(12, 13, 14, 0.7)), url("../public/img/about.jpg") center center;
+  background-size: cover;
+
+  
 }
 
 .book-a-table .php-email-form .form-group {
@@ -1192,7 +1199,7 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: #0c0b09;
+  background: linear-gradient(rgba(12, 13, 14, 0.9), rgba(12, 13, 14, 0.9));
   border-color: #625b4b;
   color: white;
 }
@@ -1451,6 +1458,9 @@ section {
 }
 
 .contact .php-email-form {
+  padding: 10px;
+  background: linear-gradient(rgba(12, 13, 14, 0.7), rgba(12, 13, 14, 0.7)), url("../public/img/about.jpg") center center;
+  background-size: cover;
   width: 100%;
 }
 
@@ -1459,12 +1469,18 @@ section {
 }
 
 .contact .php-email-form .validate {
+
   display: none;
   color: red;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
 }
+.contact .php-email-form .form-control{
+  background: linear-gradient(rgba(12, 13, 14, 0.6), rgba(12, 13, 14, 0.6));
+}
+
+
 
 .contact .php-email-form .error-message {
   display: none;
@@ -1504,6 +1520,7 @@ section {
 }
 
 .contact .php-email-form input, .contact .php-email-form textarea {
+
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
