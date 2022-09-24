@@ -1,14 +1,14 @@
 export default function Book_a_Table() {
     return (
         <section id="book-a-table" className="book-a-table">
-      <div className="container" data-aos="fade-up">
+      <div className="container" >
 
         <div className="section-title">
           <h2>Reservation</h2>
           <p>Book a Table</p>
         </div>
 
-        <form action="forms/book-a-table.php" method="post" role="form" className="php-email-form" data-aos="fade-up" data-aos-delay="100">
+        <form action="forms/book-a-table.php" method="post" role="form" className="php-email-form"  >
           <div className="row">
             <div className="col-lg-4 col-md-6 form-group">
               <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>

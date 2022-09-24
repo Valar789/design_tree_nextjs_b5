@@ -7,7 +7,7 @@ import image3 from "public/img/chefs/chefs-3.jpg"
 export default function Chefs() {
     return (
         <section id="chefs" className="chefs">
-      <div className="container" data-aos="fade-up">
+      <div className="container" >
 
         <div className="section-title">
           <h2>Chefs</h2>
@@ -17,7 +17,7 @@ export default function Chefs() {
         <div className="row">
 
           <div className="col-lg-4 col-md-6">
-            <div className="member" data-aos="zoom-in" data-aos-delay="100">
+            <div className="member"  >
               <Image src={image1} className="img-fluid" alt=""/>
               <div className="member-info">
                 <div className="member-info-content">
@@ -35,7 +35,7 @@ export default function Chefs() {
           </div>
 
           <div className="col-lg-4 col-md-6">
-            <div className="member" data-aos="zoom-in" data-aos-delay="200">
+            <div className="member"  >
               <Image src={image2} className="img-fluid" alt=""/>
               <div className="member-info">
                 <div className="member-info-content">
@@ -53,7 +53,7 @@ export default function Chefs() {
           </div>
 
           <div className="col-lg-4 col-md-6">
-            <div className="member" data-aos="zoom-in" data-aos-delay="300">
+            <div className="member"  data-aos-delay="300">
               <Image src={image3} className="img-fluid" alt=""/>
               <div className="member-info">
                 <div className="member-info-content">

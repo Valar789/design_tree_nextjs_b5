@@ -14,14 +14,14 @@ import Link from "next/link";
 export default function Menu() {
     return (
         <section id="menu" className="menu section-bg">
-      <div className="container" data-aos="fade-up">
+      <div className="container" >
 
         <div className="section-title">
           <h2>Menu</h2>
           <p>Check Our Tasty Menu</p>
         </div>
 
-        <div className="row" data-aos="fade-up" data-aos-delay="100">
+        <div className="row"  >
           <div className="col-lg-12 d-flex justify-content-center">
             <ul id="menu-flters">
               <li data-filter="*" className="filter-active">All</li>
@@ -32,7 +32,7 @@ export default function Menu() {
           </div>
         </div>
 
-        <div className="row menu-container" data-aos="fade-up" data-aos-delay="200">
+        <div className="row menu-container"  >
 
           <div className="col-lg-6 menu-item filter-starters">
             <Image src={image1}className="menu-img" alt=""/>

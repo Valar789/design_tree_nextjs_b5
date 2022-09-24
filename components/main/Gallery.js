@@ -15,14 +15,14 @@ export default function Gallery() {
     return (
         <section id="gallery" className="gallery">
 
-      <div className="container" data-aos="fade-up">
+      <div className="container" >
         <div className="section-title">
           <h2>Gallery</h2>
           <p>Some photos from Our Restaurant</p>
         </div>
       </div>
 
-      <div className="container-fluid" data-aos="fade-up" data-aos-delay="100">
+      <div className="container-fluid"  >
 
         <div className="row g-0">
 

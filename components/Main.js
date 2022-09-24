@@ -8,7 +8,7 @@ import Events from "./main/Events";
 import Gallery from "./main/Gallery";
 import Menu from "./main/Menu";
 import Specials from "./main/Specials";
-import Testimonials from "./main/Testimonials";
+
 import Why_Us from "./main/Why_Us";
 
 
@@ -22,7 +22,7 @@ export default function Main() {
     <Specials/>
     <Events/>
     <Book_a_Table/>
-    <Testimonials/>
+
     <Gallery/>
     <Chefs/>
     <ContactSection/>

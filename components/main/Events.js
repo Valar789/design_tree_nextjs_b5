@@ -8,14 +8,14 @@ import image3 from "public/img/event-custom.jpg"
 export default function Events() {
     return (
         <section id="events" className="events">
-      <div className="container" data-aos="fade-up">
+      <div className="container" >
 
         <div className="section-title">
           <h2>Events</h2>
           <p>Organize Your Events in our Restaurant</p>
         </div>
 
-        <div className="events-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+        <div className="events-slider swiper-container"  >
           <div className="swiper-wrapper">
 
             <div className="swiper-slide">

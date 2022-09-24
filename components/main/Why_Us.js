@@ -2,7 +2,7 @@ export default function Why_Us() {
   return (
     <div>
       <section id="why-us" className="why-us">
-        <div className="container" data-aos="fade-up">
+        <div className="container" >
           <div className="section-title">
             <h2>Why Us</h2>
             <p>Why Choose Our Restaurant</p>
@@ -10,7 +10,7 @@ export default function Why_Us() {
 
           <div className="row">
             <div className="col-lg-4">
-              <div className="box" data-aos="zoom-in" data-aos-delay="100">
+              <div className="box"  >
                 <span>01</span>
                 <h4>Lorem Ipsum</h4>
                 <p>
@@ -21,7 +21,7 @@ export default function Why_Us() {
             </div>
 
             <div className="col-lg-4 mt-4 mt-lg-0">
-              <div className="box" data-aos="zoom-in" data-aos-delay="200">
+              <div className="box"  >
                 <span>02</span>
                 <h4>Repellat Nihil</h4>
                 <p>
@@ -32,7 +32,7 @@ export default function Why_Us() {
             </div>
 
             <div className="col-lg-4 mt-4 mt-lg-0">
-              <div className="box" data-aos="zoom-in" data-aos-delay="300">
+              <div className="box"  data-aos-delay="300">
                 <span>03</span>
                 <h4> Ad ad velit qui</h4>
                 <p>

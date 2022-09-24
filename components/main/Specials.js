@@ -10,14 +10,14 @@ import image5 from "public/img/specials-5.png"
 export default function Specials() {
     return (
         <section id="specials" className="specials">
-      <div className="container" data-aos="fade-up">
+      <div className="container" >
 
         <div className="section-title">
           <h2>Specials</h2>
           <p>Check Our Specials</p>
         </div>
 
-        <div className="row" data-aos="fade-up" data-aos-delay="100">
+        <div className="row"  >
           <div className="col-lg-3">
             <ul className="nav nav-tabs flex-column">
               <li className="nav-item">

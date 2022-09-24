@@ -1,7 +1,7 @@
 export default function ContactSection() {
     return (
         <section id="contact" className="contact">
-      <div className="container" data-aos="fade-up">
+      <div className="container" >
 
         <div className="section-title">
           <h2>Contact</h2>
@@ -9,11 +9,11 @@ export default function ContactSection() {
         </div>
       </div>
 
-      <div data-aos="fade-up">
+      <div >
 
       </div>
 
-      <div className="container" data-aos="fade-up">
+      <div className="container" >
 
         <div className="row mt-5">
 

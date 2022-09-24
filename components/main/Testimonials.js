@@ -11,14 +11,14 @@ import image5 from "public/img/testimonials/testimonials-5.jpg"
 export default function Testimonials() {
     return (
         <section id="testimonials" className="testimonials section-bg">
-      <div className="container" data-aos="fade-up">
+      <div className="container" >
 
         <div className="section-title">
           <h2>Testimonials</h2>
           <p>What they're saying about us</p>
         </div>
 
-        <div className="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+        <div className="testimonials-slider swiper-container"  >
           <div className="swiper-wrapper">
 
             <div className="swiper-slide">

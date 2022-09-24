@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="footer-info">
-                <h3>Restaurantly</h3>
+                <h3>Design Tree</h3>
                 <p>
                   A108 Adam Street <br />
                   NY 535022, USA
@@ -109,7 +109,7 @@ export default function Footer() {
         <div className="copyright">
           &copy; Copyright{" "}
           <strong>
-            <span>Restaurantly</span>
+            <span>Design Tree</span>
           </strong>
           . All Rights Reserved
         </div>
